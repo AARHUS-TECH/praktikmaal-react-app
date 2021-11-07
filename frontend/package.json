@@ -5,6 +5,11 @@
         "email": "karsten.reitan@gmail.com",
         "url": "https://kaki.dk"
     },
+    "contributors": [{
+        "name": "Test Testesen",
+        "email": "justtesting@gmail.com",
+        "url": "https://test.com"
+    }],
     "version": "0.1.0",
     "private": true,
     "dependencies": {
