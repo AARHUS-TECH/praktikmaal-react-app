@@ -10,18 +10,16 @@ Appen skal være en hjælp til virksomhederne i dokumentation af deres opfyldels
 **Vær opmærksom på at alle filer i denne mappe er eksempler på programmering**
 
 # Opsætning af systemet
-Alle dependencies og kørsler sker via yarn og ikke npm. 
-Docker containere har en tendens til at få konflikter, når man bruger npm.
+Alle dependencies og kørsler sker via yarn og ikke npm.<br/>
+Docker containere har en tendens til at få konflikter, når man bruger npm.<br/>
 
-<br/>
 ## Setup af fullstack website (Node-Express-React-MongoDB) 
+Localhost:/8000 = Backend<br/>
+Localhost:/3000 = Frontend<br/>
 
-Localhost:/8000 = Backend
-Localhost:/3000 = Frontend
+## Setup Frontend
+CD til frontend mappen i terminalen<br/>
 
-## Setup Frontend-
-
-CD til frontend mappen i terminalen
 yarn i (for at download alt i json.package)
 npm start (for at køre script til at starte backend)
 npm build
