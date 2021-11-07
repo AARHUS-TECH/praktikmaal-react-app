@@ -1,0 +1,40 @@
+image: node
+
+stages:
+  - build
+  - lint
+
+
+build-job:
+  stage: build
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+    - tsc index.ts
+    tags:
+    - typescript
+    
+
+eslint:
+  stage: lint
+  script:
+    - |
+    echo "Testing eslint.."
+    npm install eslint \
+    eslint-config-prettier \
+    eslint-plugin-prettier \
+    eslint-plugin-react
+    - node_modules/eslint/bin/eslint.js .
+
+
+test-job2:
+  stage: test
+  script:
+    - echo "This job will test something, but will take more time than test-job1."
+    - echo "After the echo commands complete, it will run the sleep command for 20 seconds"
+    - echo "which will simulate a test that runs 20 seconds longer than test-job1"
+    - sleep 20
+
+deploy-prod:
+  stage: deploy
+  script:
+    - echo "This job deploys something from the $CI_COMMIT_BRANCH branch."
