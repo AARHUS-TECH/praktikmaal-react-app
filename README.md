@@ -24,19 +24,19 @@ yarn start (for at køre script til at starte backend)<br/>
 yarn build<br/>
 yarn test<br/>
 
-## Setup Backend-
+## Setup Backend
 
 CD til Backend mappen i terminale<br/>
 npm i (for at download alt i json.package)<br/>
 npm start (for at køre script til at starte backend)
 
-## Ændring af PORT i Backend-
+## Ændring af PORT i Backend
 
 open .env og ænder port=8000 til en anden<br/>
 efter det åben så app.js og ænder const port = process.env.PORT || 8000; til en anden port
 
 ## Testing-
-for at testet backend funktioner brug postman (https://www.getpostman.com/)
+for at testet backend funktioner brug postman (https://www.getpostman.com/)<br/>
 for at se data/api i databasen brug Robo 3T (https://robomongo.org/)
 
  
