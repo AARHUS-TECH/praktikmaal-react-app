@@ -20,20 +20,19 @@ Localhost:/3000 = Frontend<br/>
 ## Setup Frontend
 CD til frontend mappen i terminalen<br/>
 
-yarn i (for at download alt i json.package)
-npm start (for at køre script til at starte backend)
-npm build
-npm test
+yarn start (for at køre script til at starte backend)<br/>
+yarn build<br/>
+yarn test<br/>
 
 ## Setup Backend-
 
-CD til Backend mappen i terminale 
-npm i (for at download alt i json.package)
+CD til Backend mappen i terminale<br/>
+npm i (for at download alt i json.package)<br/>
 npm start (for at køre script til at starte backend)
 
 ## Ændring af PORT i Backend-
 
-open .env og ænder port=8000 til en anden
+open .env og ænder port=8000 til en anden<br/>
 efter det åben så app.js og ænder const port = process.env.PORT || 8000; til en anden port
 
 ## Testing-
