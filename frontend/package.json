@@ -1,5 +1,10 @@
 {
     "name": "praktikmaal-react-app",
+    "author": {
+        "name": "Karsten Reian Sørensen",
+        "email": "karsten.reitan@gmail.com",
+        "url": "https://kaki.dk"
+    },
     "version": "0.1.0",
     "private": true,
     "dependencies": {
