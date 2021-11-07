@@ -4,7 +4,7 @@ Appen skal være en hjælp til virksomhederne i dokumentation af deres opfyldels
 * Bruger skal kunne indgive en opgave
 * For hver opgave skal man kunne tilknytte praktikmål
 
-# Vær opmærksom på at alle filer i denne mappe er eksempler på programmering
+**Vær opmærksom på at alle filer i denne mappe er eksempler på programmering**
 
 # Opsætning af systemet
 Alle dependencies og kørsler sker via yarn og ikke npm. 
