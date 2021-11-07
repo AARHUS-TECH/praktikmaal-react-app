@@ -1,20 +1,3 @@
-https://reactjs.org/
-https://create-react-app.dev/docs/getting-started
-https://reactjs.org/docs/thinking-in-react.html
-https://reactjs.org/docs/create-a-new-react-app.html
-https://reactjs.org/tutorial/tutorial.html
-https://codefresh.io/docs/docs/learn-by-example/nodejs/react/#react-and-docker-multi-stage-builds
-
-
-Appen er bygget med yan som skulle give færre problemer i forbindelse med at have det kørende i Docker container.
-
-Umiddelbart er der lavet en konfiguration for typescript. Det bør overvejes at der lukkes op for en håndtering af js, jsx filer som også findes eksempel filer i projektet.
-
-
-
-
-GitLab Docs - CI/CD
-https://docs.gitlab.com/ee/ci/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
